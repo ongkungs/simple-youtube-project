@@ -1,0 +1,33 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 57px;
+    justify-content: space-between;
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 170px;
+}
+
+.middle-section {
+    background-color: lightgreen;
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 50px;
+    max-width: 470px;
+    
+}
+
+.search-box {
+    padding: 10px;
+}
+
+.right-section {
+    background-color: lightcoral;
+    width: 220px;
+}
