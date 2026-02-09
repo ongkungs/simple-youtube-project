@@ -78,11 +78,22 @@
     margin-left: 10px;
 }
 
+.voice-search-icon:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+
 .right-section {
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 20px;
 }
 
 .upload-icon {
