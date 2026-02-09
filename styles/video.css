@@ -1,8 +1,8 @@
 .video-grid {
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: 16px;
-    row-gap: 40px;
+    column-gap: 10px;
+    row-gap: 30px;
 }
 
 @media (min-width: 600px) {
@@ -17,11 +17,42 @@
     }
 }
 
+.video-preview {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: background-color 0.15s;
+    padding: 10px;
+}
+
+.video-preview:hover {
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
 .video-cover {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     display: block;
+    border-radius: 10px;
+}
+
+.video-duration {
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
 }
 
 .video-info {
